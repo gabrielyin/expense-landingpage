@@ -32,8 +32,9 @@ export default function Hero() {
               data-aos='fade-down'
               data-aos-delay='700'
             >
-              <button className='btn btn-md lg:btn-lg btn-accent flex justify-center items-center lg:gap-x-4'>
+              <button className='btn btn-md lg:btn-lg btn-accent flex justify-center items-center gap-1 lg:gap-x-4'>
                 {btnText}
+                <HiOutlineChevronDown />
               </button>
               <span className='text-light lg:lead lg:mb-0'>
                 {compText}

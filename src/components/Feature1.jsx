@@ -26,7 +26,7 @@ export default function Feature1() {
           <div
             className='flex-1'
             data-aos='fade-left'
-            data-aos-offset='300'
+            data-aos-offset='400'
           >
             <img src={image} alt="" />
           </div>

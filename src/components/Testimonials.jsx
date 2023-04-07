@@ -1,7 +1,19 @@
 import React from 'react';
 
-const Testimonials = () => {
-  return <div>Testimonials</div>;
-};
+import { testimonials } from '../data';
 
-export default Testimonials;
+import ClientSlider from '../components/ClientSlider';
+
+export default function Testimonials() {
+  const { title, clients } = testimonials;
+  return (
+    <section className='section'>
+      <div className='container mx-auto'>
+        <h2 className='title mb-10 lg:mb-20 text-center max-w-[920px] mx-auto'>{title}</h2>
+        <div>
+          <ClientSlider clients={clients} />
+        </div>
+      </div>
+    </section>
+  );
+};

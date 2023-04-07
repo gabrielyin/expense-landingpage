@@ -44,7 +44,4 @@ const App = () => {
   );
 };
 
-// https://www.youtube.com/watch?v=TYhilzneAZ8
-// 1:16:42
-
 export default App;

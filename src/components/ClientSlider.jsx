@@ -17,11 +17,11 @@ export default function ClientSlider({ clients }) {
       },
       1024: {
         slidesPerView: 3,
-        spaceBetween: 0
-      },
-      1024: {
-        slidesPerView: 3,
         spaceBetween: 10
+      },
+      1170: {
+        slidesPerView: 3,
+        spaceBetween: 30
       }
     }}>
       {clients.map((client, clientIndex) => {

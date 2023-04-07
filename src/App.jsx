@@ -40,12 +40,11 @@ const App = () => {
       <Testimonials />
       <Cta />
       <Footer />
-      <div className='h-[4000px]'></div>
     </div>
   );
 };
 
 // https://www.youtube.com/watch?v=TYhilzneAZ8
-// 1:03:13
+// 1:16:42
 
 export default App;
